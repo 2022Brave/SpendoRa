@@ -34,6 +34,18 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
+      - name: Restore Debug Keystore
+        run: |
+          if [ -f debug.keystore.base64 ]; then
+            echo "Restoring debug.keystore from base64..."
+            base64 -d debug.keystore.base64 > debug.keystore
+          else
+            echo "Generating fallback debug.keystore..."
+            keytool -genkeypair -v -keystore debug.keystore -alias androiddebugkey \
+              -keyalg RSA -keysize 2048 -validity 10000 -storepass android -keypass android \
+              -dname "CN=Android Debug,O=Android,C=US"
+          fi
+
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
@@ -43,7 +55,7 @@ jobs:
       - name: Build Debug APK
         run: ./gradlew assembleDebug --stacktrace
 
-      - name: Rename APK for Easy Identification
+      - name: Prepare APK for Artifact Upload
         run: |
           mkdir -p release-output
           cp app/build/outputs/apk/debug/app-debug.apk release-output/Spendora-v1.0-debug.apk
