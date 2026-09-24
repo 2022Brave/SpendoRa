@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- SPENDO₹A Master App Logo Vector -->
+    <!-- 1. Lower Blue Ribbon Fold -->
+    <path
+        android:pathData="M36.80,65.18 C43.68,72.06 54.00,75.50 66.04,69.48 C69.48,64.32 66.04,58.30 59.16,55.72"
+        android:strokeWidth="7.74"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="36.80"
+                android:startY="70.0"
+                android:endX="66.04"
+                android:endY="58.30"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.45" android:color="#3B82F6" />
+                <item android:offset="1.0" android:color="#7C3AED" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 2. Main S Ribbon Body -->
+    <path
+        android:pathData="M66.04,33.36 C52.28,30.78 38.52,36.80 38.52,46.26 C38.52,54.86 50.56,58.30 62.60,62.60 C69.48,66.04 69.48,72.06 63.46,74.64 C57.44,77.22 45.40,76.36 37.66,66.90"
+        android:strokeWidth="8.77"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="66.04"
+                android:startY="31.0"
+                android:endX="37.66"
+                android:endY="75.0"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#EAD8FF" />
+                <item android:offset="0.25" android:color="#C084FC" />
+                <item android:offset="0.55" android:color="#8B5CF6" />
+                <item android:offset="0.82" android:color="#6D28D9" />
+                <item android:offset="1.0" android:color="#3B82F6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 3. Integrated ₹ Symbol -->
+    <!-- ₹ Top Bar -->
+    <path
+        android:pathData="M48.84,39.38 L66.90,39.38"
+        android:strokeWidth="4.64"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="48.84"
+                android:startY="39.38"
+                android:endX="66.90"
+                android:endY="39.38"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#F3E8FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- ₹ Second Bar -->
+    <path
+        android:pathData="M48.84,45.40 L63.46,45.40"
+        android:strokeWidth="4.64"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="48.84"
+                android:startY="45.40"
+                android:endX="63.46"
+                android:endY="45.40"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#F3E8FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- ₹ Upper Bowl -->
+    <path
+        android:pathData="M52.28,39.38 C62.60,39.38 62.60,46.26 54.00,46.26"
+        android:strokeWidth="4.64"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="52.28"
+                android:startY="39.38"
+                android:endX="62.60"
+                android:endY="46.26"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#E9D5FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- ₹ Downward Diagonal Leg -->
+    <path
+        android:pathData="M54.00,46.26 L65.18,54.86"
+        android:strokeWidth="4.64"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="54.00"
+                android:startY="46.26"
+                android:endX="65.18"
+                android:endY="54.86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#DDD6FE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

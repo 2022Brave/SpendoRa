@@ -1,0 +1,6 @@
+{
+  "name": "SPENDO₹A",
+  "description": "Discipline today. Freedom tomorrow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="spendora_primary">#8B5CF6</color>
+    <color name="spendora_primary_variant">#6D28D9</color>
+    <color name="spendora_secondary">#C084FC</color>
+    <color name="spendora_background_dark">#08050C</color>
+    <color name="spendora_surface_dark">#120D1A</color>
+    <color name="spendora_text_primary">#F5F3FF</color>
+    <color name="spendora_text_secondary">#9E98AD</color>
+</resources>
